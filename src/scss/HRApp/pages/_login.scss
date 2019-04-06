@@ -1,0 +1,47 @@
+
+.loginBox
+{
+  margin: 0;
+  align-items: center;
+  justify-content: space-between;
+  flex:1;
+  .card
+  {
+    max-width: 420px;
+    margin: 0;
+    background-color: transparent;
+    .lead
+    {
+      font-size: 2rem;
+      font-weight: bold;
+      color: $gray-dark;
+      line-height: 1.2;
+    }
+  }
+
+
+
+
+ .btnLinkWrapper
+ {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 20px;
+   a
+   {
+     color:$gray-light;
+   }
+ }
+
+ small
+ {
+  display: block;
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  width: 100px;
+  font-weight: bold;
+ }
+}

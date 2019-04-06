@@ -1,0 +1,36 @@
+.nav-tabs {
+  .nav-link {
+    color: $white;
+    &.active {
+      color: $gray-dark;
+      background:$activeColor;
+      border-color: $activeColor;
+      border-bottom-color: $activeColor;
+      &:focus {
+        background:$activeColor;
+        border-color: $activeColor;
+        border-bottom-color: $activeColor;
+      }
+    }
+    &:hover
+    {
+      cursor: pointer;
+     // color: $brand-primary;
+    }
+  }
+}
+.tab-content {
+  margin-top: -1px;
+  background: $theme-color;
+  border: 1px solid $theme-border-color;
+  .tab-pane {
+    padding: $spacer-y $spacer-x;
+  }
+}
+.card-block {
+  .tab-content {
+    margin-top: 0;
+    border: 0;
+  }
+}
+

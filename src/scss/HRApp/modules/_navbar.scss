@@ -1,0 +1,81 @@
+
+// navicon css
+
+// Change to watch in slow motion
+$duration: .5s;
+$size : 100%;
+$toggled-size : .75;
+$bg : $theme-color;
+$nav-bg  : $theme-color;
+$content-bg : $theme-color;
+.navicon-button {
+  width: 70px;
+  position: relative;
+  transition: $duration/2;
+  cursor: pointer;
+  user-select: none;
+  opacity: .8;
+  height: 100%;
+  @extend .hvc;
+  
+  .navicon:before, .navicon:after {
+    transition: $duration/2;
+  }
+  
+  &:hover {
+    transition: $duration;
+    opacity: 1;
+    .navicon:before, .navicon:after {
+      transition: $duration/2;
+    }
+    
+    .navicon:before { top: .825rem; }
+    .navicon:after { top: -.825rem; }
+  }
+}
+
+.navicon {
+  position: relative;
+  width: 30px;
+  height: 4px;
+  background: $content-bg;
+  transition: $duration;
+  border-radius: 2.5rem;
+  
+  &:before, &:after {
+    display: block;
+    content: "";
+    width: 30px;
+    height: 4px;
+    background: $content-bg;
+    position: absolute;
+    z-index: -1;
+    transition: $duration $duration/2;
+    border-radius: 1rem;
+  }
+  
+  &:before { top: .625rem; }
+  &:after { top: -.625rem; }
+}
+
+.open:not(.steps) .navicon:before,
+.open:not(.steps) .navicon:after {
+  top: 0 !important;
+}
+
+.open .navicon:before,
+.open .navicon:after {
+  transition: $duration;
+}
+
+
+
+
+.open.x {
+  .navicon {
+    background: transparent;
+    
+    &:before { transform: rotate(-45deg); }
+    &:after { transform: rotate(45deg); }
+  }
+}
