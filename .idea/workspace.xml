@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f407bf17-65d6-43a0-8e7c-2b44b17127cb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Dashboard/Dashboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Dashboard/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Aside/Aside.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Aside/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Footer/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Header/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Sidebar/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/Full/Full.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/Full/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/Simple/Simple.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/Simple/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/HRApp/common/type.scss" />
+    <list default="true" id="f407bf17-65d6-43a0-8e7c-2b44b17127cb" name="Default" comment="creating structure with routes for dashboard">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -231,7 +216,7 @@
       <workItem from="1554536187070" duration="6655000" />
       <workItem from="1554551301395" duration="2446000" />
       <workItem from="1554554476638" duration="2495000" />
-      <workItem from="1554571720709" duration="13866000" />
+      <workItem from="1554571720709" duration="13919000" />
     </task>
     <task id="LOCAL-00001" summary="Login Signup page and redirects">
       <created>1554573397580</created>
@@ -254,11 +239,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554587545863</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="creating structure with routes for dashboard">
+      <created>1554587591663</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554587591663</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25462000" />
+    <option name="totallyTimeSpent" value="25515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -294,7 +286,8 @@
     <MESSAGE value="Login Signup page and redirects" />
     <MESSAGE value="added button component" />
     <MESSAGE value="add forgot password, login and signup with css changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add forgot password, login and signup with css changes" />
+    <MESSAGE value="creating structure with routes for dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating structure with routes for dashboard" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
