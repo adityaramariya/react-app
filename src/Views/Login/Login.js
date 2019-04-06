@@ -13,7 +13,7 @@ class Login extends Component{
                 </div>
                 <div className="card">
                     <div className="form-caption">Login to get started</div>
-                    <div for="username" className='form-group'>
+                    <div className='form-group'>
                         <label htmlFor="email">Email</label>
                         <div className="input-group">
                             <span className="input-group-addon">
@@ -28,7 +28,7 @@ class Login extends Component{
                             />
                         </div>
                     </div>
-                    <div for="password"  className='form-group'>
+                    <div className='form-group'>
                         <label htmlFor="Password">Password</label>
                         <div className="input-group">
                                 <span className="input-group-addon">

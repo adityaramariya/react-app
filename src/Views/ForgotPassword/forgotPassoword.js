@@ -13,7 +13,7 @@ class ForgotPassword extends Component{
                     </div>
                     <div className="card">
                         <div className="form-caption">Forgot Password</div>
-                        <div for="username" className='form-group'>
+                        <div className='form-group'>
                             <label htmlFor="email">Email</label>
                             <div className="input-group">
                             <span className="input-group-addon">
