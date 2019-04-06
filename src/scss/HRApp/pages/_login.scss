@@ -7,9 +7,18 @@
   flex:1;
   .card
   {
-    max-width: 420px;
     margin: 0;
     background-color: transparent;
+    color: $gray;
+    &:nth-child(1)
+    {
+      max-width:550px;
+    }
+
+    &:nth-child(2)
+    {
+      max-width: 380px;
+    }
     .lead
     {
       font-size: 2rem;
@@ -17,29 +26,66 @@
       color: $gray-dark;
       line-height: 1.2;
     }
+
+    .form-group
+    {
+      margin-bottom:1.5*$spacer;
+    }
   }
 
+  .form-caption
+  {
+    color: $gray-light;
+    margin-bottom:2*$spacer;
+    font-size: 1.5*$font-size-base;
+  }
 
+  label
+  {
+    color: $gray-light;
+    margin-bottom:$spacer/3;
+  }
 
+  .checkbox
+  {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-between;
+    width:100%;
+    label
+    {
+      display: flex;
+      align-items:center;
+      font-size:1.1*$font-size-base;
+    }
+    input[type="checkbox"]
+    {
+      width:15px;
+      height:15px;
+      margin-right:5px;
+    }
+  }
 
  .btnLinkWrapper
  {
    display: flex;
    align-items: center;
    justify-content: space-between;
-   margin-top: 20px;
-   a
-   {
-     color:$gray-light;
-   }
+   margin-top: $spacer;
+   margin-bottom:$spacer;
  }
+
+  .btn-link
+  {
+    font-weight: 600;
+    color:$gray-dark;
+  }
 
  small
  {
-  display: block;
   margin-top: 20px;
   font-size: 1rem;
-  font-weight: 600;
   display: flex;
   width: 100px;
   font-weight: bold;
