@@ -90,4 +90,48 @@
   width: 100px;
   font-weight: bold;
  }
+
+  .toolTip--container
+  {
+    label
+    {
+      &:hover
+      {
+        + .tooltip
+        {
+          opacity: 1;
+          visibility: visible;
+          top: 20px;
+        }
+      }
+    }
+
+  }
+
+  .tooltip
+  {
+    top:0px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    &.tooltip-bottom
+    {
+      min-width: 500px;
+      right: 0;
+      margin-top: 0;
+
+      visibility: hidden;
+    }
+
+    .tooltip-inner
+    {
+      max-width: 100%;
+      &:before
+      {
+        left:90%;
+      }
+    }
+  }
 }

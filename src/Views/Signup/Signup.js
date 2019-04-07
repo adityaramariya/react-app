@@ -33,7 +33,16 @@ class Signup extends Component{
                         <div for="password"  className='form-group'>
                             <div className="flex justify-content-between">
                                 <label htmlFor="Password">Password</label>
-                                <label htmlFor="requirements">Requirements</label>
+                                <div className="toolTip--container">
+                                    <label htmlFor="requirements">Requirements</label>
+                                    <div className="tooltip tooltip-bottom">
+                                        <div className="tooltip-inner">
+                                            Must be a minimum of 8 characters, contain a capital letter, a lowercase letter,
+                                            and a numerical digit.
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                             <div className="input-group">
                                 <span className="input-group-addon">
