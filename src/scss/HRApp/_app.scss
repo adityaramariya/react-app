@@ -5,9 +5,14 @@
 
 // modules scss
 @import 'modules/extend';
-@import 'modules/navbar';
+
+
 // layout scsss
 @import 'layout/layout';
+
+// components
+@import "components/header";
+
 
 // pages scss
 @import 'pages/login';

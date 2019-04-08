@@ -11,7 +11,6 @@ class Full extends Component {
             <Sidebar {...this.props}/>
             <main className="main">            
                 {this.props.children}
-                Full component
             </main>
         </div>
          <Footer />

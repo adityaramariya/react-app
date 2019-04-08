@@ -59,6 +59,27 @@ class Signup extends Component{
                                 />
                             </div>
                         </div>
+
+
+                        <div for="password"  className='form-group'>
+                            <div className="flex justify-content-between">
+                                <label htmlFor="Password">Confirm Password</label>
+                            </div>
+                            <div className="input-group">
+                                <span className="input-group-addon">
+                                    <i class="fas fa-lock"></i>
+                                </span>
+                                <input
+                                    type="password"
+                                    className="form-control"
+                                    id="password"
+                                    name="password"
+                                    placeholder="Password"
+                                    pattern=".{5,}"
+                                    required
+                                />
+                            </div>
+                        </div>
                         <div className="btnLinkWrapper">
                             <Link to='/dashboard' className="btn btn-primary btn-lg btn-block">Start Now</Link>
                         </div>

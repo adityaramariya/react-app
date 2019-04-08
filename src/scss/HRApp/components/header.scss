@@ -1,3 +1,35 @@
+.navigation--wrapper
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: space-between;
+  width: 100%;
+  ul
+  {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    li
+    {
+      a
+      {
+        color: $gray-light;
+        padding: $spacer-y 2*$spacer-x;
+        &.btn-primary
+        {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+
+// header component
+
 
 // navicon css
 
@@ -17,18 +49,18 @@ $content-bg : $theme-color;
   opacity: .8;
   height: 100%;
   @extend .hvc;
-  
+
   .navicon:before, .navicon:after {
     transition: $duration/2;
   }
-  
+
   &:hover {
     transition: $duration;
     opacity: 1;
     .navicon:before, .navicon:after {
       transition: $duration/2;
     }
-    
+
     .navicon:before { top: .825rem; }
     .navicon:after { top: -.825rem; }
   }
@@ -41,7 +73,7 @@ $content-bg : $theme-color;
   background: $content-bg;
   transition: $duration;
   border-radius: 2.5rem;
-  
+
   &:before, &:after {
     display: block;
     content: "";
@@ -53,7 +85,7 @@ $content-bg : $theme-color;
     transition: $duration $duration/2;
     border-radius: 1rem;
   }
-  
+
   &:before { top: .625rem; }
   &:after { top: -.625rem; }
 }
@@ -74,7 +106,7 @@ $content-bg : $theme-color;
 .open.x {
   .navicon {
     background: transparent;
-    
+
     &:before { transform: rotate(-45deg); }
     &:after { transform: rotate(45deg); }
   }
