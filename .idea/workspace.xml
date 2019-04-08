@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f407bf17-65d6-43a0-8e7c-2b44b17127cb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Views/Pages/Home/home.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/HRApp/components/header.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scss/HRApp/modules/_navbar.scss" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Views/Signup/Signup.js" afterPath="$PROJECT_DIR$/src/Views/Signup/Signup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/appRoute.js" afterPath="$PROJECT_DIR$/src/appRoute.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Header/Header.js" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Full/Full.js" afterPath="$PROJECT_DIR$/src/containers/Full/Full.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/HRApp/_app.scss" afterPath="$PROJECT_DIR$/src/scss/HRApp/_app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/_bootstrap-variables.scss" afterPath="$PROJECT_DIR$/src/scss/_bootstrap-variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/_custom-variables.scss" afterPath="$PROJECT_DIR$/src/scss/_custom-variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/bootstrap_custom/_navbar.scss" afterPath="$PROJECT_DIR$/src/scss/bootstrap_custom/_navbar.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Dashboard/Dashboard.js" afterPath="$PROJECT_DIR$/src/Views/Pages/Dashboard/Admin/Dashboard.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Dashboard/package.json" afterPath="$PROJECT_DIR$/src/Views/Pages/Dashboard/Admin/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -318,7 +304,7 @@
       <workItem from="1554612406580" duration="9738000" />
       <workItem from="1554645609297" duration="777000" />
       <workItem from="1554655078788" duration="683000" />
-      <workItem from="1554697215658" duration="19000" />
+      <workItem from="1554697215658" duration="90000" />
     </task>
     <task id="LOCAL-00001" summary="Login Signup page and redirects">
       <created>1554573397580</created>
@@ -376,11 +362,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554615768710</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="dashboard with header and sidebar and dropdown menu in sidebar">
+      <created>1554697281248</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1554697281248</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38512000" />
+    <option name="totallyTimeSpent" value="38583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -420,7 +413,8 @@
     <MESSAGE value="adding components like cards, modals, buttons, tables etc etc.." />
     <MESSAGE value="deleted for attribute from div" />
     <MESSAGE value="added tooltip for requirements section in sign up page." />
-    <option name="LAST_COMMIT_MESSAGE" value="added tooltip for requirements section in sign up page." />
+    <MESSAGE value="dashboard with header and sidebar and dropdown menu in sidebar" />
+    <option name="LAST_COMMIT_MESSAGE" value="dashboard with header and sidebar and dropdown menu in sidebar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
