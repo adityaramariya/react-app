@@ -304,7 +304,7 @@
       <workItem from="1554612406580" duration="9738000" />
       <workItem from="1554645609297" duration="777000" />
       <workItem from="1554655078788" duration="683000" />
-      <workItem from="1554697215658" duration="90000" />
+      <workItem from="1554697215658" duration="133000" />
     </task>
     <task id="LOCAL-00001" summary="Login Signup page and redirects">
       <created>1554573397580</created>
@@ -369,11 +369,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554697281248</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="global partial components like buttons, social icons , cards etc etc.">
+      <created>1554697341439</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1554697341439</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38583000" />
+    <option name="totallyTimeSpent" value="38626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -414,7 +421,8 @@
     <MESSAGE value="deleted for attribute from div" />
     <MESSAGE value="added tooltip for requirements section in sign up page." />
     <MESSAGE value="dashboard with header and sidebar and dropdown menu in sidebar" />
-    <option name="LAST_COMMIT_MESSAGE" value="dashboard with header and sidebar and dropdown menu in sidebar" />
+    <MESSAGE value="global partial components like buttons, social icons , cards etc etc." />
+    <option name="LAST_COMMIT_MESSAGE" value="global partial components like buttons, social icons , cards etc etc." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
